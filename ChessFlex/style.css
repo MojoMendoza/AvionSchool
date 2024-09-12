@@ -1,0 +1,39 @@
+
+.chess-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; /* 8 squares * 40px each */
+}
+
+.square {
+    display:flex;
+    width: 40px;
+    height: 40px;
+    place-content:center;
+    flex-wrap: wrap;
+}
+
+.black {
+    background-color:darkgreen
+}
+
+.white {
+    background-color: #fff;
+}
+.container {
+
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.fa-solid, .fa-regular {
+ font-size: 30px;
+
+}
+span {
+    font-size: large;
+}
