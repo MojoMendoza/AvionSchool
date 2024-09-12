@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <form method="get" class="w3-container">
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname" placeholder="Enter first name" required> <br />
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" required> <br />
+            <label for="condition">Do you agree with the conditions?</label>
+            <input type="radio" name="condition" value="yes"> Yes
+            <input type="radio" name="condition" value="no"> No 
+            <input type="radio" name="condition" value="maybe"> Maybe
+            <br />
+            <label for="favecolor">Favorite color(s):</label>
+            <input type="checkbox" name="favecolor" value="red"> Red
+            <input type="checkbox" name="favecolor" value="yellow"> Yellow
+            <input type="checkbox" name="favecolor" value="blue"> Blue
+            <input type="checkbox" name="favecolor" value="green"> Green 
+            <br />
+            <label for="address">Address:</label>
+            <textarea name="address" maxlength="50" rows="6" cols="30" required></textarea>
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <br />
+            <label for="favedessert">Dessert:</label>
+            <select name="dessert">
+                <option selected disabled>Select option</option>
+                <option value="icecream">Ice cream</option>
+                <option value="pudding">Pudding</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="cake">Cake</option>
+                <option value="halohalo">Halo-Halo</option>
+                <option value="kakanin">Kakanin</option>
+                <option value="lecheflan">Leche Flan</option>
+            </select>
+            <br />
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="date" min="2024-08-01" max="2024-08-31">
+            <br />
+            <label for="age">Age:</label>
+            <input type="number" name="age" min="18" max="100">
+            <br />
+            <input type="submit" value="Submit my information">
+        </form>
+    </body>
+</html>

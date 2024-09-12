@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <h1 id="title">Mojo's Pizzeria <title>My Form</title></h1>
+       <p id="description"> Mojo's pizzeria serves the best Chicago Style pizza in the city! Order now!</p>
+    </head>
+    <body>
+        <form method="get" id="survey-form">
+            <label for="firstname" id="name">First name:</label>
+            <input type="text" name="firstname" placeholder="Enter first name" required> <br />
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" required> <br />
+            <label for="condition">Do you agree with the conditions?</label>
+            <input type="radio" name="condition" value="yes"> Yes
+            <input type="radio" name="condition" value="no"> No 
+            <input type="radio" name="condition" value="maybe"> Maybe
+            <br />
+            <label for="favecolor">Select a Pizza:</label>
+            <input type="checkbox" name="favecolor" value="red"> Pepperoni
+            <input type="checkbox" name="favecolor" value="yellow"> Cheese
+            <input type="checkbox" name="favecolor" value="blue"> All Meat
+            <input type="checkbox" name="favecolor" value="green"> White Truffle 
+            <br />
+            <label for="address">Address:</label>
+            <textarea name="address" maxlength="50" rows="6" cols="30" required></textarea>
+            <br />
+            <label for="email" id="email">Email:</label>
+            <input type="email" name="email" required>
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <br />
+            <label for="favedessert">Dessert:</label>
+            <select name="dessert">
+                <option selected disabled>Select option</option>
+                <option value="icecream">Ice cream</option>
+                <option value="pudding">Pudding</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="cake">Cake</option>
+                <option value="halohalo">Halo-Halo</option>
+                <option value="kakanin">Kakanin</option>
+                <option value="lecheflan">Leche Flan</option>
+            </select>
+            <br />
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="date" min="2024-08-01" max="2024-08-31">
+            <br />
+            <label for="age" id="number">Age:</label>
+            <input type="number" name="age" min="18" max="100">
+            
+            <br />
+            <input type="submit" value="Submit my information">
+        </form>
+    </body>
+</html>

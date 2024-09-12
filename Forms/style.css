@@ -1,0 +1,165 @@
+.one {
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid black;
+}
+
+.two {
+    background-color: blue;
+}
+
+.one, .two {
+    display: inline;
+    font-size: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+
+.first {
+    background-color: yellow;
+    /* flex: 50%; */
+}
+
+.second {
+    background-color: green;
+    /* flex: 50%; */
+}
+
+.third {
+    background-color: orange;
+    /* flex: 50%; */
+}
+
+.black-box {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.purple-box {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+.brown-box {
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-container {
+    display: flex;
+}
+
+.apple {
+    background-color: rgb(198, 92, 92);
+    order: 4;
+}
+
+.banana {
+    background-color: rgb(235, 235, 114);
+    order: 1;
+}
+
+.mango {
+    background-color: rgb(0, 118, 0);
+    order: -1;
+}
+
+.watermelon {
+    background-color: rgb(109, 0, 0);
+    order: -5;
+}
+
+.grow-container {
+    display: flex;
+}
+
+.grow1, .grow2, .grow3 {
+    background-color: pink;
+    margin: 5px;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 1;
+}
+
+.grow3 {
+    flex-grow: 2;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+    height: 50px;
+    width: 50px;
+}
+
+.top-left {
+    background-color: brown;
+}
+
+.top-right {
+    background-color: navy;
+}
+
+.bottom-left {
+    background-color: green;
+}
+
+.bottom-right {
+    background-color: gray;
+}
+
+.exercise {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chessboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.gray, .black{
+    flex: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}

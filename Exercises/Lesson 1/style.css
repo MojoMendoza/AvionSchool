@@ -1,0 +1,55 @@
+*{
+    background-color: aqua;
+}
+
+body{
+    background-color: white;
+
+}
+
+
+h1 {color:pink !important;
+    color: red;
+    text-align:center;
+}
+
+#my-id{
+    color:green;
+    font-size:40px;  
+}
+.my-class{
+    color:blue;
+    background-color:yellow;
+}
+
+h3{
+    color: black;
+}
+
+span{
+    color:violet;
+    background-color:black;
+}
+
+.brown-color{
+    color:brown;
+}
+
+.brown-color{
+    color:brown !important;
+}
+
+#background-blue,h2, .background-blue{
+
+    background-color: blue;
+}
+
+#my-img{
+
+    width: 70%;
+    height: 70%;
+}
+
+.my-link {
+    text-align: center;
+}

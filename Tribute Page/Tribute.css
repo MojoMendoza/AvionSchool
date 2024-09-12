@@ -1,0 +1,43 @@
+h1{
+
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: rgb(250, 252, 252);
+    font-weight: 400;
+}
+
+body {
+    background-image: url("Mojica.jpg");
+  }
+
+  #img-div{
+
+    width: 20%;
+    height: auto%;
+    
+  }
+
+  #img-caption{
+
+    color: beige;
+  }
+
+  h2{
+
+    color: beige;
+  }
+
+  h3{
+
+    color:rgb(250, 15, 15);
+    font-size:medium;
+    text-align: right;
+    margin-bottom: 100%;
+  }
+
+  #tribute-link{
+    
+    color: beige;
+  }
+  
