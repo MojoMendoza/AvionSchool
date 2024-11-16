@@ -1,0 +1,27 @@
+.user-table-container {
+  width: 100%;
+  max-height: 400px; 
+  overflow-y: auto; 
+  margin: 20px 0;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+}
+
+.user-table th, 
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table td {
+  color: #2B547E;
+}
+
+.amountData {
+  text-align: right;
+}

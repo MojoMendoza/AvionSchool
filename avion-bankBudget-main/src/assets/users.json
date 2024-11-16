@@ -1,0 +1,76 @@
+[
+  {
+    "id": 0,
+    "name": "Clark Kent",
+    "email": "justyourregularguy@metropolis.com",
+    "balance": 200000,
+    "expenses": [
+      {
+        "id": 0,
+        "amount": 5000,
+        "description": "Rent for apartment",
+        "category": "Housing",
+        "date": "2024-11-10"
+      },
+      {
+        "id": 1,
+        "amount": 1000,
+        "description": "Electricity bill",
+        "category": "Utilities",
+        "date": "2024-11-12"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Bruce Wayne",
+    "email": "totallynotbatman@gothamcity.com",
+    "balance": 100000000,
+    "expenses": [
+      {
+        "id": 0,
+        "amount": 5000000,
+        "description": "Maintenance of Batcave",
+        "category": "Business",
+        "date": "2024-11-11"
+      },
+      {
+        "id": 1,
+        "amount": 200000,
+        "description": "Charity donation",
+        "category": "Charity",
+        "date": "2024-11-09"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Steve Rogers",
+    "email": "everyonesfavoritecaptain@shield.com",
+    "balance": 800000,
+    "expenses": [
+      {
+        "id": 0,
+        "amount": 30000,
+        "description": "New shield repairs",
+        "category": "Repairs",
+        "date": "2024-11-05"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Natasha Romanoff",
+    "email": "spiderqueen@kgb.com",
+    "balance": 10000000,
+    "expenses": [
+      {
+        "id": 0,
+        "amount": 50000000,
+        "description": "Spy equipment",
+        "category": "Security",
+        "date": "2024-11-02"
+      }
+    ]
+  }
+]

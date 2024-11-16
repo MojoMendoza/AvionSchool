@@ -1,0 +1,25 @@
+.addUser {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+  border-top: 1px dashed #7e7e7e80;
+  padding-top: 10px;
+}
+
+.addUser input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.addUser button{
+  color: aliceblue;
+  background-color: #2b547e;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+::placeholder {
+  text-align: center;
+}

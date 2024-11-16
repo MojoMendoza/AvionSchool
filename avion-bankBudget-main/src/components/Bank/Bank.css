@@ -1,0 +1,25 @@
+.transferForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.transferForm input, #withdraw-deposit input {
+  background: none;
+  border: none;
+  min-height: 20px;
+  padding-inline: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.transferForm button, #withdraw-deposit button {
+  color: aliceblue;
+  background-color: #2b547e;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+::placeholder {
+  text-align: center;
+}
